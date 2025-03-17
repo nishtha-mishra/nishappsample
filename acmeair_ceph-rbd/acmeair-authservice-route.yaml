@@ -4,7 +4,7 @@ kind: Route
 metadata:
   name: acmeair-auth-route-mc1
 spec:
-  host: acmeair.apps.m4205001.lnxero1.boe
+  host: acmeair.apps.api.acm213-manage.cp.fyre.ibm.com
   path: /auth
   to:
     kind: Service
@@ -15,7 +15,7 @@ kind: Route
 metadata:
   name: acmeair-auth-route-mc2
 spec:
-  host: acmeair.apps.m4202001.lnxero1.boe
+  host: acmeair.apps.api.acm213-manage.cp.fyre.ibm.com
   path: /auth
   to:
     kind: Service
