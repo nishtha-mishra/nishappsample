@@ -1,0 +1,22 @@
+---
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  name: acmeair-flight-route-mc1
+spec:
+  host: acmeair.apps.m4205001.lnxero1.boe
+  path: /flight
+  to:
+    kind: Service
+    name: acmeair-flight-service
+---
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  name: acmeair-flight-route-mc2
+spec:
+  host: acmeair.apps.m4202001.lnxero1.boe
+  path: /flight
+  to:
+    kind: Service
+    name: acmeair-flight-service

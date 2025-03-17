@@ -1,0 +1,12 @@
+---
+resources:
+- deploy-acmeair-mainservice-java.yaml
+- acmeair-mainservice-route.yaml
+- deploy-acmeair-authservice-java.yaml
+- acmeair-authservice-route.yaml
+- deploy-acmeair-bookingservice-java.yaml
+- acmeair-bookingservice-route.yaml
+- deploy-acmeair-customerservice-java.yaml
+- acmeair-customerservice-route.yaml
+- deploy-acmeair-flightservice-java.yaml
+- acmeair-flightservice-route.yaml

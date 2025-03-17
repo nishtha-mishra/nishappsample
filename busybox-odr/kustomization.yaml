@@ -1,0 +1,5 @@
+
+---
+resources:
+- busybox-pvc.yaml
+- busybox-pod.yaml

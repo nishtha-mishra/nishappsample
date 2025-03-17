@@ -1,0 +1,11 @@
+---
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  name: acmeair-customer-route-dr
+spec:
+  host: acmeair.apps.ocsm4205001.lnxero1.boe
+  path: /customer
+  to:
+    kind: Service
+    name: acmeair-customer-service
