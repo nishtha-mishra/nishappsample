@@ -4,7 +4,7 @@ kind: Route
 metadata:
   name: acmeair-booking-route-dr
 spec:
-  host: acmeair.apps.api.acm213-manage.cp.fyre.ibm.com
+  host: acmeair.apps.api.a3e20008-f1.cp.fyre.ibm.com
   path: /booking
   to:
     kind: Service
